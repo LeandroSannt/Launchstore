@@ -36,6 +36,10 @@ form .item>div:nth-child(1){
     margin-bottom: 8px;
 }
 
+form .tem .input input,
+form .item input[name= "password"],
+form .item input[name= "passwordRepeat"],
+
 form .item input[type= "text"],
 form .item input[type= "number"],
 form .item textarea,
