@@ -10,3 +10,27 @@
     
    /* max-width: 60%;*/
 }
+
+@keyframes hidemessage{
+    to {
+        top:-50px;
+        opacity:0
+    }
+}
+
+.messages{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding: 16px;
+    width: 100%;
+    color: white;
+    top: 0;
+    opacity: 1;
+    animation: hidemessage 400ms 5s ease-out forwards;
+
+}
+
+.messages.error{
+    background-color: #e74c3c;
+}
