@@ -34,3 +34,49 @@
 .messages.error{
     background-color: #e74c3c;
 }
+
+.messages.success{
+    background-color: rgb(108, 173, 108);
+}
+
+.accounts{
+    position: relative;
+}
+.accounts .submenu{
+    position: absolute;
+    top:32px;
+    left: 0;
+    margin-top: 8px;
+    width: 150px;
+    display: block;
+    background-color: white;
+    filter:drop-shadow(1px 1px 2px  #000);
+    transition:  all 200ms;
+    border-radius: 4px;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.accounts:hover .submenu{
+    top:10px;
+    opacity: 1;
+    visibility: inherit;
+}
+
+.accounts .submenu li a,
+.accounts .submenu li button {
+    color: #777;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    border-top: 1px solid #eee;
+
+    display: inline-block;
+    width: 100%;
+
+}
+
+
+
