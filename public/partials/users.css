@@ -78,5 +78,23 @@
 
 }
 
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer a {
+    color: rgb(194, 189, 189) ;
+
+}
+
+.footer a:hover{
+    color: black;
+    font-weight: bold;
+}
+
 
 

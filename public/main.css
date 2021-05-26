@@ -87,6 +87,10 @@ header,footer{
 
 }
 
+section.form{
+    max-width: 500px !important;
+}
+
 
 
 

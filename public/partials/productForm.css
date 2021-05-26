@@ -1,3 +1,8 @@
+section.login.container,
+section.password.container{
+    max-width: 500px;
+}
+
 section.form{
     background-color: white;
     padding: 32px 24px ;
