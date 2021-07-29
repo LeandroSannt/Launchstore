@@ -26,7 +26,6 @@ async function login(req,res,next){
 async function forgot(req,res,next){
     const {email} = req.body
 
-
     try{
 
         let user = await User.findOne({where: {email} })

@@ -5,7 +5,6 @@ module.exports ={
         
         return res.render('user/register')
     },
-
     async show(req,res){
         const {user} = req
 
@@ -39,7 +38,10 @@ module.exports ={
                 adress 
             })
 
+
+
             return res.render("user/index",{
+                
                 user:user,
                 success:"Conta atualizada com sucesso"
             })
